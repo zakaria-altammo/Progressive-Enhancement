@@ -1,4 +1,25 @@
 body{
-    background-color: black;
-    color: snow;
+    background-image: url(chinese.jpg);
+    background-repeat: repeat-x;
+
+    color: rgb(92, 69, 69);
+}
+img {
+    width: 500px;
+    height: 500px;
+}
+.alan {
+    width: 200px;
+    height: 200px;
+}
+h1 {
+    background-color: rgb(82, 66, 66);
+    font-family: sans-serif;
+    font-style: italic;
+    color: slategrey;
+    margin: 50px 50px 50px 50px;
+    padding: 10px 100px 10px 300px;
+}
+ul {
+    text-align: left;
 }
