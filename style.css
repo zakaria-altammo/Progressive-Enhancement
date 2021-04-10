@@ -1,73 +1,110 @@
 body{
-    background-image: url(chinese.jpg);
-    background-color: #dee2ff;
-    height: 700px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    color: rgb(92, 69, 69);
+    background-color: #2b2d42;
+    color: #edf2f4;
 }
+/* yeeeaaa, > This is my first comment
+-----> Header style */
 img {
-    width: 500px;
+    width: 100%;
     height: 500px;
 }
-.alan {
-    width: 200px;
-    height: 1px;
+nav {
+    padding: 3px 3px 3px 40px;
+    background-color: #edf2f4;
+    width: 380px;
+    padding: 3px;
+    margin: 3px;
 }
 h1 {
-    background-color: rgb(82, 66, 66);
+    border-radius: 20px;
+    text-align: center;
+    background-color: #f94144;
     font-family: sans-serif;
     font-style: italic;
     color: #efd3d7;
-    margin: 50px 50px 50px 50px;
-    padding: 10px 100px 10px 300px;
+    margin: 50px 150px 50px 150px;
+    padding: 10px 100px 10px 100px;
+}
+/*---> first section style  */
+.pre {
+    padding: 5px 5px 5px 10px;
+    background-color: #b8f2e6;
+    width: 85px;
+    color: #5e6472;
+    font-size: 20px;
+    margin: 4px;
+    border-radius: 2px;
 }
 ul {
-    font-size: 25px;
+    font-size: 15px;
     font-weight: bolder;
     font-style: italic;
 }
 em {
     font-size: 20px;
-    background-color: khaki;
+    background-color: #ef233c;
     position: relative;
     left: 1px;
     bottom: 500px;
+    padding: 3px;
 }
-.one, .two, .three {
-    border: 1px solid khaki;
+
+/*---> second section style  */
+h2 {
+    background-color: #b8f2e6;
+    width: 100px;
+    color: #5e6472;
+    border-radius: 3px;
+    padding: 7px;
 }
-.three {
-    text-align: center;
-}
-table {
-    text-align: center;
-    position: relative;
-    left: 500px;
+.story {
+    background-color: #706677;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 20px;
+    font-size: 18px;
+    padding: 7px;
 }
-.philosopher {
-    border: 1px solid;
-    font-size: 20px;
-    width: 600px;
-    height: 405px;
-    padding: 15px;
-    background-color: #8e9aaf;
-    position: relative;
-    left: 20px;
-    bottom: 500px;
+blockquote {
+
 }
 .alan {
     height: 500px;
     width: 500px;
     position: relative;
-    left: 650px;
+    left: 0px;
     margin: 20px;
 }
-.pre {
-    background-color: whitesmoke;
-    color: gray;
+.philosopher {
+    border: 1px solid;
     font-size: 20px;
+    width: 100%;
+    height: 200px;
+    padding: 15px;
+    background-color: #e63946;
+    position: relative;
+}
+
+
+
+
+
+
+/*---> third section style  */
+
+
+table {
+    text-align: center;
+    margin: 20px;
+    height: 400px;
+    width: 300px;
+}
+
+
+
+
+
+/* links style */
+a {
+    color: #d90429;
 }
