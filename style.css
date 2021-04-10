@@ -1,7 +1,11 @@
 body{
     background-image: url(chinese.jpg);
-    background-repeat: repeat-x;
-
+    background-color: #dee2ff;
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
     color: rgb(92, 69, 69);
 }
 img {
@@ -10,16 +14,60 @@ img {
 }
 .alan {
     width: 200px;
-    height: 200px;
+    height: 1px;
 }
 h1 {
     background-color: rgb(82, 66, 66);
     font-family: sans-serif;
     font-style: italic;
-    color: slategrey;
+    color: #efd3d7;
     margin: 50px 50px 50px 50px;
     padding: 10px 100px 10px 300px;
 }
 ul {
-    text-align: left;
+    font-size: 25px;
+    font-weight: bolder;
+    font-style: italic;
+}
+em {
+    font-size: 20px;
+    background-color: khaki;
+    position: relative;
+    left: 1px;
+    bottom: 500px;
+}
+.one, .two, .three {
+    border: 1px solid khaki;
+}
+.three {
+    text-align: center;
+}
+table {
+    text-align: center;
+    position: relative;
+    left: 500px;
+    margin: 20px;
+}
+.philosopher {
+    border: 1px solid;
+    font-size: 20px;
+    width: 600px;
+    height: 405px;
+    padding: 15px;
+    background-color: #8e9aaf;
+    position: relative;
+    left: 20px;
+    bottom: 500px;
+}
+.alan {
+    height: 500px;
+    width: 500px;
+    position: relative;
+    left: 650px;
+    margin: 20px;
+}
+.pre {
+    background-color: whitesmoke;
+    color: gray;
+    font-size: 20px;
 }
