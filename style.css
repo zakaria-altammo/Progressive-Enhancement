@@ -70,10 +70,7 @@ blockquote {
 }
 .alan {
     height: 500px;
-    width: 500px;
-    position: relative;
-    left: 0px;
-    margin: 20px;
+    width: 100%;
 }
 .philosopher {
     border: 1px solid;
@@ -106,5 +103,5 @@ table {
 
 /* links style */
 a {
-    color: #d90429;
+    color: #fcf5c7;
 }
