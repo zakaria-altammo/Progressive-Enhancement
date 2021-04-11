@@ -1,6 +1,8 @@
 body{
-    background-color: #2b2d42;
+    background-color: #264653;
     color: #edf2f4;
+    border: 1px solid #f95738;
+    padding: 20px;
 }
 /* yeeeaaa, > This is my first comment
 -----> Header style */
@@ -9,14 +11,18 @@ img {
     height: 500px;
 }
 nav {
-    padding: 3px 3px 3px 40px;
-    background-color: #edf2f4;
-    width: 380px;
-    padding: 3px;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    background-color: #4eb1a5;
+    width: 430px;
     margin: 3px;
+    border-radius: 2px;
+}
+#z {
+    background-color: #080708;
 }
 h1 {
-    border-radius: 20px;
+    border-radius: 5px;
     text-align: center;
     background-color: #f94144;
     font-family: sans-serif;
@@ -24,6 +30,9 @@ h1 {
     color: #efd3d7;
     margin: 50px 150px 50px 150px;
     padding: 10px 100px 10px 100px;
+}
+#a {
+    color: #ee964b;
 }
 /*---> first section style  */
 .pre {
@@ -36,15 +45,12 @@ h1 {
     border-radius: 2px;
 }
 ul {
-    font-size: 15px;
+    font-size: 20px;
     font-weight: bolder;
     font-style: italic;
 }
-em {
+.name {
     font-size: 20px;
-    background-color: #ef233c;
-    position: relative;
-    left: 1px;
     bottom: 500px;
     padding: 3px;
 }
@@ -60,23 +66,29 @@ h2 {
 .story {
     background-color: #706677;
     font-size: 15px;
+    line-height: 2em;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 20px;
     font-size: 18px;
     padding: 7px;
+
 }
 blockquote {
+    padding: 10px;
 
 }
 .alan {
+    float: right;
     height: 500px;
-    width: 100%;
+    width: fit-content;
 }
 .philosopher {
+    clear: left;
     border: 1px solid;
-    font-size: 20px;
-    width: 100%;
-    height: 200px;
+    font-size: 15px;
+    line-height: 1.25;
+    width: 50%;
+    height: 250px;
     padding: 15px;
     background-color: #e63946;
     position: relative;
@@ -92,6 +104,8 @@ blockquote {
 
 table {
     text-align: center;
+    border: 2px #b23827;
+    background: #ef476f;
     margin: 20px;
     height: 400px;
     width: 300px;
@@ -101,7 +115,7 @@ table {
 
 
 
-/* links style */
+/*---> links style */
 a {
     color: #fcf5c7;
 }
