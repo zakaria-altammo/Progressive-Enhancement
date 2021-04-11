@@ -1,10 +1,12 @@
 body{
-    background-color: #264653;
+    background-color: #6d597a;
+    width: fit-content;
     color: #edf2f4;
     border: 1px solid #f95738;
     padding: 20px;
 }
-/* yeeeaaa, > This is my first comment
+/* yeeeaaah, >>>>>
+>>>> This is my first comment
 -----> Header style */
 img {
     width: 100%;
@@ -12,42 +14,53 @@ img {
 }
 nav {
     text-align: center;
+    font-family: 'New Tegomin', serif;
     padding: 10px 10px 10px 10px;
-    background-color: #4eb1a5;
+    background-color: #b56576;
     width: 430px;
     margin: 3px;
     border-radius: 2px;
 }
+figcaption {
+    font-size: 19px;
+    font-family: 'New Tegomin', serif;
+    color: #f4f1de;
+
+}
 #z {
-    background-color: #080708;
+    background-color: #e07a5f;
+}
+#a {
+    color: #f4f1de;
 }
 h1 {
     border-radius: 5px;
+    text-shadow: 2px 2px #000000;
     text-align: center;
-    background-color: #f94144;
-    font-family: sans-serif;
-    font-style: italic;
+    background-color: #355070;
+    font-family: 'Abel', sans-serif;
     color: #efd3d7;
-    margin: 50px 150px 50px 150px;
-    padding: 10px 100px 10px 100px;
-}
-#a {
-    color: #ee964b;
+    padding: 10px;
+    width: 500px;
+    position: relative;
+    left: 350px;
 }
 /*---> first section style  */
 .pre {
     padding: 5px 5px 5px 10px;
-    background-color: #b8f2e6;
+    font-family: 'Abel', sans-serif;
+    background-color: #eaac8b;
     width: 85px;
     color: #5e6472;
-    font-size: 20px;
+    font-size: 25px;
     margin: 4px;
     border-radius: 2px;
 }
 ul {
     font-size: 20px;
     font-weight: bolder;
-    font-style: italic;
+    font-family: 'New Tegomin', serif;
+    
 }
 .name {
     font-size: 20px;
@@ -57,7 +70,8 @@ ul {
 
 /*---> second section style  */
 h2 {
-    background-color: #b8f2e6;
+    background-color: #eaac8b;
+    font-family: 'Abel', sans-serif;
     width: 100px;
     color: #5e6472;
     border-radius: 3px;
@@ -66,32 +80,48 @@ h2 {
 .story {
     background-color: #706677;
     font-size: 15px;
+    color: #eaac8b;
     line-height: 2em;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Abel', sans-serif;
     margin: 20px;
-    font-size: 18px;
+    font-size: 20px;
     padding: 7px;
 
 }
+#link {
+    color: #006d77;
+}
 blockquote {
     padding: 10px;
+    font-size: 20px;
+    font-family: 'New Tegomin', serif;
+    clear: left;
 
 }
 .alan {
+    filter: drop-shadow(8px 8px 10px gray);
     float: right;
-    height: 500px;
-    width: fit-content;
+    height: 385px;
+    width: 200px;
+    margin: 20px;
 }
 .philosopher {
     clear: left;
-    border: 1px solid;
-    font-size: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
     line-height: 1.25;
-    width: 50%;
-    height: 250px;
-    padding: 15px;
-    background-color: #e63946;
+    width: 70%;
+    height:200px ;
+    padding: 10px;
+    background-color: #e07a5f;
+    border-radius: 3px;
+    margin: 20px ;
+}
+#mine {
     position: relative;
+    left: 80%;
+    font-size: 18px;
+    color: #355070;
 }
 
 
@@ -102,20 +132,44 @@ blockquote {
 /*---> third section style  */
 
 
-table {
-    text-align: center;
-    border: 2px #b23827;
-    background: #ef476f;
-    margin: 20px;
+.content-table {
+    border-collapse: collapse;
+    font-family: 'New Tegomin', serif;
+    border-radius: 5px  5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px #000;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
     height: 400px;
     width: 300px;
+    color: #000;
+}
+.content-table tr th {
+    background-color: #81b29a;
+    color: aliceblue;
+    text-align: left;
+    font-weight: bold;
+}
+.content-table th,
+.content-table td {
+    padding: 12px 15px;
+}
+.content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+.content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+.content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #81b29a;
+}
+.p-tabel {
+    font-family: 'Ubuntu', sans-serif;
+    
 }
 
 
 
 
 
-/*---> links style */
-a {
-    color: #fcf5c7;
-}
