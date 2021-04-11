@@ -2,21 +2,22 @@ body{
     background-color: #6d597a;
     width: fit-content;
     color: #edf2f4;
-    border: 1px solid #f95738;
     padding: 20px;
+    box-shadow: 0 0 20px #000;
 }
 /* yeeeaaah, >>>>>
 >>>> This is my first comment
 -----> Header style */
 img {
+    border-radius: 4px;
     width: 100%;
     height: 500px;
+    box-shadow: 0 0 20px #000;
 }
 nav {
     text-align: center;
     font-family: 'New Tegomin', serif;
     padding: 10px 10px 10px 10px;
-    background-color: #b56576;
     width: 430px;
     margin: 3px;
     border-radius: 2px;
@@ -25,13 +26,17 @@ figcaption {
     font-size: 19px;
     font-family: 'New Tegomin', serif;
     color: #f4f1de;
+    padding-bottom: 5px;
+    text-shadow: 0 0 5px #000;
 
 }
-#z {
-    background-color: #e07a5f;
+#em-text {
+    box-shadow: 0 0 20px #000;
 }
 #a {
-    color: #f4f1de;
+    background-color: #e56b6f;
+    color: #355070;
+    font-weight: bold;
 }
 h1 {
     border-radius: 5px;
@@ -42,8 +47,7 @@ h1 {
     color: #efd3d7;
     padding: 10px;
     width: 500px;
-    position: relative;
-    left: 350px;
+    box-shadow: 0 0 40px #000;
 }
 /*---> first section style  */
 .pre {
@@ -55,11 +59,16 @@ h1 {
     font-size: 25px;
     margin: 4px;
     border-radius: 2px;
+    box-shadow: 0 0 40px #000;
+    text-shadow: 0 0 2px #000000;
+
 }
 ul {
     font-size: 20px;
     font-weight: bolder;
     font-family: 'New Tegomin', serif;
+    text-shadow: 2px 2px #000000;
+
     
 }
 .name {
@@ -76,6 +85,7 @@ h2 {
     color: #5e6472;
     border-radius: 3px;
     padding: 7px;
+    box-shadow: 0 0 40px #000;
 }
 .story {
     background-color: #706677;
@@ -86,16 +96,23 @@ h2 {
     margin: 20px;
     font-size: 20px;
     padding: 7px;
+    box-shadow: 0 0 40px #000;
+    text-shadow: 2px 2px #000000;
+    border-radius: 5px;
 
 }
 #link {
-    color: #006d77;
+    color: #e56b6f;
 }
 blockquote {
     padding: 10px;
+    width: 75%;
     font-size: 20px;
     font-family: 'New Tegomin', serif;
     clear: left;
+    box-shadow: 0 0 20px #000;
+    text-shadow: 2px 2px #000000;
+    
 
 }
 .alan {
@@ -104,6 +121,7 @@ blockquote {
     height: 385px;
     width: 200px;
     margin: 20px;
+    box-shadow: 0 0 20px #000;
 }
 .philosopher {
     clear: left;
@@ -111,11 +129,12 @@ blockquote {
     font-size: 14px;
     line-height: 1.25;
     width: 70%;
-    height:200px ;
+    height:fit-content ;
     padding: 10px;
     background-color: #e07a5f;
     border-radius: 3px;
     margin: 20px ;
+    box-shadow: 0 0 20px #000;
 }
 #mine {
     position: relative;
@@ -144,10 +163,12 @@ blockquote {
     height: 400px;
     width: 300px;
     color: #000;
+    position: relative;
+    left: 400px;
 }
 .content-table tr th {
-    background-color: #81b29a;
-    color: aliceblue;
+    background-color: #b56576;
+    color: #000;
     text-align: left;
     font-weight: bold;
 }
@@ -156,20 +177,25 @@ blockquote {
     padding: 12px 15px;
 }
 .content-table tbody tr {
-    border-bottom: 1px solid #dddddd;
+    border-bottom: 2px solid #e56b6f;
 }
 .content-table tbody tr:nth-of-type(even) {
-    background-color: #f3f3f3;
+    background-color: #eaac8b;
 }
 .content-table tbody tr:last-of-type {
-    border-bottom: 2px solid #81b29a;
+    border-bottom: 2px solid #b56576;
 }
 .p-tabel {
     font-family: 'Ubuntu', sans-serif;
+    background-color: ;
     
 }
 
+/* footer styling */
 
+footer {
+    padding-top: 40px;
+}
 
 
 
