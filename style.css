@@ -1,5 +1,5 @@
 body {
-    background-color: #6d597a;
+    background-color: #16426F;
     background-image: url(chinese.jpg);
     background-repeat: no-repeat;
 
@@ -84,19 +84,20 @@ h2 {
     box-shadow: 0 0 40px #000;
 }
 .one-two {
-    background-color: #706677;
-}
-p {
+    background-color: #eaac8b;
     font-size: 15px;
-    color: #eaac8b;
+    color: #203A53;
     line-height: 2em;
     font-family: serif;
     font-size: 20px;
     box-shadow: 0 0 40px #000;
-    text-shadow: 2px 2px #000000;
     border-radius: 5px;
     padding-left: 30px;
 }
+#first {
+    font-weight: bold;
+}
+
 p:first-of-type {
     font-weight: bold;
 }
@@ -104,6 +105,9 @@ p:first-of-type {
     max-width: 50%;
     font-size: 160%;
     border-left: 3px dashed;
+}
+a:hover {
+    color: aliceblue;
 }
 .link {
     color: #e56b6f;
