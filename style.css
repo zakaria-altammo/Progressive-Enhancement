@@ -2,8 +2,7 @@ body {
     background-color: #16426F;
     background-image: url(chinese.jpg);
     background-repeat: no-repeat;
-
-
+    background-size: cover;
     max-width: 90%;
     color: #edf2f4;
     padding: 20px;
