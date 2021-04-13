@@ -21,12 +21,12 @@ img {
 figcaption {
     font-size: 19px;
     font-family: 'New Tegomin', serif;
-    color: #f4f1de;
+    color: #3F4449;
     padding-bottom: 5px;
     text-shadow: 0 0 5px #000;
 
 }
-.navbar, .end-footer,
+.end-footer,
 .text-wiki {
     background-color: #e56b6f;
     color: #355070;
@@ -39,10 +39,11 @@ h1 {
     text-align: center;
     background-color: #355070;
     font-family: 'Abel', sans-serif;
-    color: #efd3d7;
+    color: #B1C0CF;
     padding: 10px;
     width: 500px;
     box-shadow: 0 0 40px #000;
+    margin: auto;
 }
 /*---> first section style  */
 .pre {
@@ -55,15 +56,15 @@ h1 {
     margin: 4px;
     border-radius: 2px;
     box-shadow: 0 0 40px #000;
-    text-shadow: 0 0 2px #000000;
+    text-shadow: 0 2px #000000;
 
 }
 ul {
     font-size: 20px;
     font-weight: bolder;
     font-family: 'New Tegomin', serif;
-    text-shadow: 2px 2px #000000;
-
+    text-shadow: 0 2px #000000;
+    color: #323D48;
     
 }
 .name {
@@ -83,7 +84,7 @@ h2 {
     box-shadow: 0 0 40px #000;
 }
 .one-two {
-    background-color: #eaac8b;
+    background-color: #7F95AC;
     font-size: 15px;
     color: #203A53;
     line-height: 2em;
@@ -97,23 +98,28 @@ h2 {
     font-weight: bold;
 }
 
-p:first-of-type {
-    font-weight: bold;
-}
 .quote {
     max-width: 50%;
     font-size: 160%;
     border-left: 3px dashed;
+    padding-left: 30px;
 }
 a:hover {
     color: aliceblue;
+    background-color: blue;
 }
-.link {
+a:visited {
     color: #e56b6f;
 }
+a:active {
+    color: aqua;
+}
+.link {
+    color: #203A53;
+}
 blockquote {
-    padding: 10px;
-    margin: auto;
+    padding: 20px 10px 20px 10px;
+    margin: 10px auto;
     width: 60%;
     font-size: 20px;
     font-family: 'New Tegomin', serif;
@@ -121,7 +127,7 @@ blockquote {
     clear: left;
     box-shadow: 0 0 20px #000;
     text-shadow: 0 2px #000000;
-    background-color: #eaac8b;
+    background-color: #B1C0CF;
     color: #706677;
     
 
@@ -129,8 +135,8 @@ blockquote {
 .alan {
     filter: drop-shadow(8px 8px 10px gray);
     float: right;
-    height: 385px;
-    width: 200px;
+    height: 200px;
+    width: 150px;
     margin: 20px;
     box-shadow: 0 0 20px #000;
 }
@@ -155,10 +161,10 @@ blockquote {
     font-weight: bold;
     width: fit-content;
     color: #e56b6f;
-    padding: 4px;
+    padding: 7px;
     border-radius: 3px;
     background-color: #eaac8b;
-    margin: 5px auto;
+    margin: 15px auto;
 }
 .content-table {
     border-collapse: collapse;
@@ -172,7 +178,7 @@ blockquote {
     height: 400px;
     width: 300px;
     color: #000;
-    margin: auto;
+    margin: 15px auto;
 }
 .content-table tr th {
     background-color: #b56576;
@@ -185,10 +191,10 @@ blockquote {
     padding: 12px 15px;
 }
 .content-table tbody tr {
-    border-bottom: 2px solid #e56b6f;
+    border-bottom: 2px solid grey;
 }
 .content-table tbody tr:nth-of-type(even) {
-    background-color: #eaac8b;
+    background-color: #355070;
 }
 .content-table tbody tr:last-of-type {
     border-bottom: 2px solid #b56576;
@@ -212,7 +218,17 @@ footer {
     box-shadow: 0 0 20px #edf2f4;
     border-radius: 3px;
     padding: 5px;
-
+}
+.footer {
+    background-color: #5e6472;
+    color: #e56b6f;
+    width: fit-content;
+    font-family: 'New Tegomin', serif;
+    font-size: 30px;
+    text-shadow: 0 2px #000;
+    box-shadow: 0 0 20px #edf2f4;
+    border-radius: 3px;
+    padding: 5px;
 }
 
 
